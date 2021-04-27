@@ -56,7 +56,7 @@ function mouseDragged(){
 }
 
 async function getTime(){
-  var response=await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata");
+  var response=await fetch("https://worldtimeapi.org/api/timezone/Asia/Kolkata");
   var data=await response.json();
   console.log(data.datetime.slice(11,13));
   var hours=data.datetime.slice(11,13);
