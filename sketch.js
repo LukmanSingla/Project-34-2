@@ -61,8 +61,8 @@ async function getTime(){
   console.log(data.datetime.slice(11,13));
   var hours=data.datetime.slice(11,13);
   if(hours<=18 && hours>=07){
-  bg = loadImage("sprites/bg.png");    
+  bg = loadImage("bg.png");    
   }else{
-  bg = loadImage("sprites/bg2.jpg");
+  bg = loadImage("bg2.jpg");
   }
 }
